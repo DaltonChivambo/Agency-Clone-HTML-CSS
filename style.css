@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: blue;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    position: fixed;
+}
+
+.nav .logo{
+    margin-left: 10%;
+    text-align: left;
+    flex: 20%;
+}
+
+.nav .logo h1{
+    font-family: 'League Spartan', sans-serif;
+    color: #180F4A;
+    font-size: 34px;
+}
+
+.nav .menu{
+    text-align: right;
+    flex: 70%;
+    padding: 20px;
+}
+
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #180F4A;
+}
+
+
+#button{
+    margin-left: 5%;
+    margin-right: 10%;
+    background:#180F4A;
+    color: white;
+    border-top: none;
+    border-radius: 7px;
+    padding: 10px 25px;
+}
+
+.menu a:hover{
+    color: #FF2978;
+    border-top:4px solid #180F4A;
+}
+
+#button:hover{
+    background: #FF2978;
+}
+
+
+/*Header*/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 100px;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    color: #180F4A;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+.contact-button{
+    display: inline-block;
+    padding: 20px;
+    background: #FF2978;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contact-button:hover{
+    background: #180F4A;
+}
