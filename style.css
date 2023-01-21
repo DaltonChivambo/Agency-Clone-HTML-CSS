@@ -7,7 +7,6 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background: blue;
 }
 
 .nav{
@@ -28,7 +27,7 @@ body{
     flex: 20%;
 }
 
-.nav .logo h1{
+.logo h1{
     font-family: 'League Spartan', sans-serif;
     color: #180F4A;
     font-size: 34px;
@@ -114,4 +113,71 @@ body{
 
 .contact-button:hover{
     background: #180F4A;
+}
+
+
+
+/*Section*/
+.section{
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+
+.section h2{
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+    color: #180F4A;
+    margin: 0;
+}
+
+.card-main-section{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.card-section{
+    border: 1px solid #FF2978;
+    width: 30%;
+    display: inline-block;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-section p{
+    text-align: left;
+}
+
+ .hidden-text{
+    display: none;
+}
+
+.card-section:hover{
+    background: #FF2978;
+    color: white;
+}
+
+.card-section:hover .text-card{
+    display: none;
+}
+
+.card-section:hover .hidden-text{
+    display: inline-block;
+}
+
+
+/*Footer*/
+footer{
+    margin-top: 100px;
+    background-image: linear-gradient(180deg,#c31432,#240b36);
+    text-align: center;
+    color: white;
+}
+
+
+.logo-footer{
+    padding: 100px;
 }
