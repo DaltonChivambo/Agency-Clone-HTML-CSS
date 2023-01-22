@@ -181,3 +181,13 @@ footer{
 .logo-footer{
     padding: 100px;
 }
+
+.whatssap img{
+    display: inline-block;
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+}
+
